@@ -42,7 +42,7 @@ const FormSection = () => {
       property_type: type,
     };
 
-    const respuesta = await fetch("http://localhost:8000/predict", {
+    const respuesta = await fetch("https://price-home-backend.onrender.com/predict", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
