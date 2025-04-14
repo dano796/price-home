@@ -20,7 +20,7 @@ PriceHome utiliza un modelo de predicción de precios inmobiliarios que, a parti
 
 ![Form Section](previews/form-section-1.png)
 
-- Hacer click en el botón estimar
+- Hacer click en el botón **Estimar**
 
 ![Form Section](previews/form-section-2.png)
 
@@ -30,3 +30,5 @@ PriceHome utiliza un modelo de predicción de precios inmobiliarios que, a parti
 - Daniel Ortiz Aristizábal
 - Felipe Torres Montoya
 - Sebastián Monsalve Gómez
+
+### Ingeniería de Software - Universidad Pontificia Bolivariana
