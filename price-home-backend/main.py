@@ -16,7 +16,6 @@ app.add_middleware(
 with open("modeloVentasRealState.pkl", "rb") as file:
     model, variables, min_max_scaler = pickle.load(file)
 
-
 class HouseData(BaseModel):
     area: int
     baths: int
@@ -27,7 +26,6 @@ class HouseData(BaseModel):
     property_type: str
     rooms: int
     stratum: str
-
 
 @app.get('/saludar')
 async def saludar():
@@ -50,3 +48,4 @@ async def predict_price(house_data: HouseData):
         raise HTTPException(status_code=500, detail=str(e))
 
     return {"predicted_price": prediction[0]}
+    
