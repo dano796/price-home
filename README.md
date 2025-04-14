@@ -18,11 +18,11 @@ PriceHome utiliza un modelo de predicción de precios inmobiliarios que, a parti
 
 - Ingresar los datos en cada uno de los campos del formulario
 
-![Form Section](previews/form-section-1.png.png)
+![Form Section](previews/form-section-1.png)
 
 - Hacer click en el botón estimar
 
-![Form Section](previews/form-section-2.png.png)
+![Form Section](previews/form-section-2.png)
 
 ## Desarrollado por
 
